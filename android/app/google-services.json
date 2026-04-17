@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "122665005516",
+    "firebase_url": "https://smart-agriculture-sliyeg-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-agriculture-sliyeg",
+    "storage_bucket": "smart-agriculture-sliyeg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122665005516:android:4c702047cc2515aa186d69",
+        "android_client_info": {
+          "package_name": "com.example.smart_agriculture_sliyeg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122665005516-hq44tr0lp970an03rh52tv7u298sq28m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYQC80Hr05PKLxWtGEMXtNxXec6HHDQB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122665005516-hq44tr0lp970an03rh52tv7u298sq28m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "122665005516-bquv5h9hohud4irabm9spas7qn9afhh4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartAgricultureSliyeg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,488 @@
+{
+  "devices": {
+    "smart_agriculture_001": {
+      "plant_name": "Cabai Rawit",
+      "sensor_data": {
+        "temperature": 28,
+        "moisture": 41,
+        "rawMoisture": 600
+      },
+      "control_status": {
+        "pump": false,
+        "mode": "manual",
+        "auto_config": {
+          "moistureDryBelow": 60,
+          "temperatureMin": 15,
+          "temperatureMax": 32
+        },
+        "schedule": {
+          "startHour": 6,
+          "startMinute": 0,
+          "endHour": 6,
+          "endMinute": 15
+        }
+      },
+      "last_seen": 1710000000000,
+      "history": {
+        "log_001": {
+          "timestamp": 1710000000000,
+          "durationMs": 120000,
+          "type": "auto",
+          "startMoisture": 35,
+          "endMoisture": 60
+        },
+        "log_002": {
+          "timestamp": 1710003600000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        },
+        "log_003": {
+          "timestamp": 1710007200000,
+          "durationMs": 150000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_004": {
+          "timestamp": 1710010800000,
+          "durationMs": 200000,
+          "type": "manual",
+          "startMoisture": 42,
+          "endMoisture": 66
+        },
+        "log_005": {
+          "timestamp": 1710014400000,
+          "durationMs": 170000,
+          "type": "auto",
+          "startMoisture": 37,
+          "endMoisture": 61
+        },
+        "log_006": {
+          "timestamp": 1710018000000,
+          "durationMs": 130000,
+          "type": "manual",
+          "startMoisture": 39,
+          "endMoisture": 63
+        },
+        "log_007": {
+          "timestamp": 1710021600000,
+          "durationMs": 160000,
+          "type": "auto",
+          "startMoisture": 36,
+          "endMoisture": 60
+        },
+        "log_008": {
+          "timestamp": 1710025200000,
+          "durationMs": 190000,
+          "type": "manual",
+          "startMoisture": 41,
+          "endMoisture": 67
+        },
+        "log_009": {
+          "timestamp": 1710028800000,
+          "durationMs": 140000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_010": {
+          "timestamp": 1710032400000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        }
+      }
+    },
+
+    "smart_agriculture_002": {
+      "plant_name": "Tomat",
+      "sensor_data": {
+        "temperature": 27,
+        "moisture": 50,
+        "rawMoisture": 700
+      },
+      "control_status": {
+        "pump": false,
+        "mode": "auto",
+        "auto_config": {
+          "moistureDryBelow": 55,
+          "temperatureMin": 18,
+          "temperatureMax": 30
+        },
+        "schedule": {
+          "startHour": 7,
+          "startMinute": 0,
+          "endHour": 7,
+          "endMinute": 10
+        }
+      },
+      "last_seen": 0,
+      "history": {
+        "log_001": {
+          "timestamp": 1710000000000,
+          "durationMs": 120000,
+          "type": "auto",
+          "startMoisture": 35,
+          "endMoisture": 60
+        },
+        "log_002": {
+          "timestamp": 1710003600000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        },
+        "log_003": {
+          "timestamp": 1710007200000,
+          "durationMs": 150000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_004": {
+          "timestamp": 1710010800000,
+          "durationMs": 200000,
+          "type": "manual",
+          "startMoisture": 42,
+          "endMoisture": 66
+        },
+        "log_005": {
+          "timestamp": 1710014400000,
+          "durationMs": 170000,
+          "type": "auto",
+          "startMoisture": 37,
+          "endMoisture": 61
+        },
+        "log_006": {
+          "timestamp": 1710018000000,
+          "durationMs": 130000,
+          "type": "manual",
+          "startMoisture": 39,
+          "endMoisture": 63
+        },
+        "log_007": {
+          "timestamp": 1710021600000,
+          "durationMs": 160000,
+          "type": "auto",
+          "startMoisture": 36,
+          "endMoisture": 60
+        },
+        "log_008": {
+          "timestamp": 1710025200000,
+          "durationMs": 190000,
+          "type": "manual",
+          "startMoisture": 41,
+          "endMoisture": 67
+        },
+        "log_009": {
+          "timestamp": 1710028800000,
+          "durationMs": 140000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_010": {
+          "timestamp": 1710032400000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        }
+      }
+    },
+
+    "smart_agriculture_003": {
+      "plant_name": "Selada",
+      "sensor_data": {
+        "temperature": 26,
+        "moisture": 60,
+        "rawMoisture": 800
+      },
+      "control_status": {
+        "pump": true,
+        "mode": "schedule",
+        "auto_config": {
+          "moistureDryBelow": 50,
+          "temperatureMin": 16,
+          "temperatureMax": 28
+        },
+        "schedule": {
+          "startHour": 8,
+          "startMinute": 0,
+          "endHour": 8,
+          "endMinute": 15
+        }
+      },
+      "last_seen": 0,
+      "history": {
+       "log_001": {
+          "timestamp": 1710000000000,
+          "durationMs": 120000,
+          "type": "auto",
+          "startMoisture": 35,
+          "endMoisture": 60
+        },
+        "log_002": {
+          "timestamp": 1710003600000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        },
+        "log_003": {
+          "timestamp": 1710007200000,
+          "durationMs": 150000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_004": {
+          "timestamp": 1710010800000,
+          "durationMs": 200000,
+          "type": "manual",
+          "startMoisture": 42,
+          "endMoisture": 66
+        },
+        "log_005": {
+          "timestamp": 1710014400000,
+          "durationMs": 170000,
+          "type": "auto",
+          "startMoisture": 37,
+          "endMoisture": 61
+        },
+        "log_006": {
+          "timestamp": 1710018000000,
+          "durationMs": 130000,
+          "type": "manual",
+          "startMoisture": 39,
+          "endMoisture": 63
+        },
+        "log_007": {
+          "timestamp": 1710021600000,
+          "durationMs": 160000,
+          "type": "auto",
+          "startMoisture": 36,
+          "endMoisture": 60
+        },
+        "log_008": {
+          "timestamp": 1710025200000,
+          "durationMs": 190000,
+          "type": "manual",
+          "startMoisture": 41,
+          "endMoisture": 67
+        },
+        "log_009": {
+          "timestamp": 1710028800000,
+          "durationMs": 140000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_010": {
+          "timestamp": 1710032400000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        } 
+      }
+    },
+
+    "smart_agriculture_004": {
+      "plant_name": "Bayam",
+      "sensor_data": {
+        "temperature": 29,
+        "moisture": 45,
+        "rawMoisture": 650
+      },
+      "control_status": {
+        "pump": false,
+        "mode": "manual",
+        "auto_config": {
+          "moistureDryBelow": 60,
+          "temperatureMin": 20,
+          "temperatureMax": 33
+        },
+        "schedule": {
+          "startHour": 6,
+          "startMinute": 30,
+          "endHour": 6,
+          "endMinute": 45
+        }
+      },
+      "last_seen": 0,
+      "history": {
+       "log_001": {
+          "timestamp": 1710000000000,
+          "durationMs": 120000,
+          "type": "auto",
+          "startMoisture": 35,
+          "endMoisture": 60
+        },
+        "log_002": {
+          "timestamp": 1710003600000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        },
+        "log_003": {
+          "timestamp": 1710007200000,
+          "durationMs": 150000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_004": {
+          "timestamp": 1710010800000,
+          "durationMs": 200000,
+          "type": "manual",
+          "startMoisture": 42,
+          "endMoisture": 66
+        },
+        "log_005": {
+          "timestamp": 1710014400000,
+          "durationMs": 170000,
+          "type": "auto",
+          "startMoisture": 37,
+          "endMoisture": 61
+        },
+        "log_006": {
+          "timestamp": 1710018000000,
+          "durationMs": 130000,
+          "type": "manual",
+          "startMoisture": 39,
+          "endMoisture": 63
+        },
+        "log_007": {
+          "timestamp": 1710021600000,
+          "durationMs": 160000,
+          "type": "auto",
+          "startMoisture": 36,
+          "endMoisture": 60
+        },
+        "log_008": {
+          "timestamp": 1710025200000,
+          "durationMs": 190000,
+          "type": "manual",
+          "startMoisture": 41,
+          "endMoisture": 67
+        },
+        "log_009": {
+          "timestamp": 1710028800000,
+          "durationMs": 140000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_010": {
+          "timestamp": 1710032400000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        } 
+      }
+    },
+
+    "smart_agriculture_005": {
+      "plant_name": "Kangkung",
+      "sensor_data": {
+        "temperature": 28,
+        "moisture": 55,
+        "rawMoisture": 720
+      },
+      "control_status": {
+        "pump": true,
+        "mode": "auto",
+        "auto_config": {
+          "moistureDryBelow": 50,
+          "temperatureMin": 19,
+          "temperatureMax": 31
+        },
+        "schedule": {
+          "startHour": 17,
+          "startMinute": 0,
+          "endHour": 17,
+          "endMinute": 15
+        }
+      },
+      "last_seen": 0,
+      "history": {
+        "log_001": {
+          "timestamp": 1710000000000,
+          "durationMs": 120000,
+          "type": "auto",
+          "startMoisture": 35,
+          "endMoisture": 60
+        },
+        "log_002": {
+          "timestamp": 1710003600000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        },
+        "log_003": {
+          "timestamp": 1710007200000,
+          "durationMs": 150000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_004": {
+          "timestamp": 1710010800000,
+          "durationMs": 200000,
+          "type": "manual",
+          "startMoisture": 42,
+          "endMoisture": 66
+        },
+        "log_005": {
+          "timestamp": 1710014400000,
+          "durationMs": 170000,
+          "type": "auto",
+          "startMoisture": 37,
+          "endMoisture": 61
+        },
+        "log_006": {
+          "timestamp": 1710018000000,
+          "durationMs": 130000,
+          "type": "manual",
+          "startMoisture": 39,
+          "endMoisture": 63
+        },
+        "log_007": {
+          "timestamp": 1710021600000,
+          "durationMs": 160000,
+          "type": "auto",
+          "startMoisture": 36,
+          "endMoisture": 60
+        },
+        "log_008": {
+          "timestamp": 1710025200000,
+          "durationMs": 190000,
+          "type": "manual",
+          "startMoisture": 41,
+          "endMoisture": 67
+        },
+        "log_009": {
+          "timestamp": 1710028800000,
+          "durationMs": 140000,
+          "type": "auto",
+          "startMoisture": 38,
+          "endMoisture": 62
+        },
+        "log_010": {
+          "timestamp": 1710032400000,
+          "durationMs": 180000,
+          "type": "manual",
+          "startMoisture": 40,
+          "endMoisture": 65
+        }
+      }
+    }
+  }
+}
